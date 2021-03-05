@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    flex-direction: column;
+    position: relative;
+    justify-content:flex-start;
+    align-items: flex-start ;
+    height: 100vh;
+    width: 100%;
+    max-width: 1240px;
+    background: linear-gradient(to right, rgb(143, 89, 89), rgb(230,50,50)); 
+}
+
+.flex-item1 {
+    top: 50px;
+    margin-left: 20px;
+
+    background:rgb(39, 139, 44);
+    width: 100px;
+    height: 100px;
+}
+
+.flex-item2 {
+    background:rgb(139, 126, 121);
+    width: 100px;
+    height: 100px;
+}
+
+.flex-item3 {
+    justify-content: flex-start;
+    background:rgb(8, 0, 122);
+    width: 100px;
+    height: 100px;
+}
